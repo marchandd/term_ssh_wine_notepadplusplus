@@ -15,7 +15,7 @@ Easy method to produce a GUI containers to access to Wine and able to download a
 Image can run Windows software through emulator accessing by view remotely X displays.
 
 After image and container builds, connect to container with GUI SSH client.  
-Run scripts for Windows Portable-apps samples to install and use like explain in [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/docs/summary.md "Summary").
+Run scripts for Windows Portable-apps samples to install and use like explain in [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/summary.md "Summary").
 
 ### Softwares tested
 
@@ -45,7 +45,7 @@ Around 1400 Mb.
 
 ### Command line explanation
 
-All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/docs/summary.md "Summary").
+All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/summary.md "Summary").
 
 3 methods to find password:
 
@@ -74,19 +74,19 @@ Where YYYYY is your Private port, if you doesn't know free port, try from 49200.
 
 ### Command line explanation
 
-All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/docs/summary.md "Summary").
+All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/summary.md "Summary").
 
 ## Container usage
 
 ### Alias
 
-All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/docs/summary.md "Summary").
+All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/summary.md "Summary").
 
 ## Explanations
 
 ### Dockerfile
 
-All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/docs/summary.md "Summary").
+All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/summary.md "Summary").
 
 ### Display
 
@@ -94,7 +94,7 @@ Make sure to have installed OpenSSH client or GUI SSH client (Putty).
 Wine is installed but need to be initialized before using it.  
 All Windows Portable-apps samples must been installed with deployed scripts.
 
-All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/docs/summary.md "Summary").
+All details on [docs](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/summary.md "Summary").
 
 ### Risks
 
