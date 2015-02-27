@@ -21,7 +21,7 @@ Run scripts for Windows Portable-apps samples to install and use like explain in
 
 | State | Portable-app  
 | --- | ---  
-| Gold | [Notepad++](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/notepad.md "Notepad++_Details") Portable-app  
+| Gold | [Notepad++](https://github.com/marchandd/term_ssh_wine_notepadplusplus/blob/master/docs/notepad.md "Notepad++_Details") Portable-app  
 
 ### Image size
 
