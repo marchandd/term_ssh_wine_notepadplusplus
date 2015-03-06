@@ -16,8 +16,7 @@ Dedicated to user non-computer specialist, scripts and commands are reduced to m
 VNC client: SSL usage is not available for have less software to install.
 SSL client: user & password usage is only available (not secret-key value).
 
-Only 5 minutes to have a Portable-App ready to run with only 2 scripts to 
-launch without parameter and just 1 command line to run !
+Very easy way that take less than 5 minutes, you just have to run only 3 times one same command in cyclic mode to run sub programs and just 1 command line to active alias !
 
 Take precaution when you use it because portability is not guaranteed...  
 Software samples proposed are available with 50 to 100 % functional features 
@@ -65,6 +64,12 @@ Scripts behaviours:
 - Make new version software alias.
 - Install and running logs are save into files.
 
+### Only 1 script from install to launch !
+
+- Run one same `notepad.sh` command in cyclic mode to run sub programs:  
+One run to set Wine emulator, one run to install and one run to launch.  
+- notepad alias is not available at the end of progam. You have to make alias activation later.
+
 ### Don't remember alias activation !
 
 :warning: Alias have not automatic recognition:
@@ -75,8 +80,7 @@ Scripts behaviours:
 - Make sure new version have same install Features that older and after: 
 - Change URLs in /root/Downloads/downloadsLinks.txt file.
 - Delete /root/Downloads/old versions XX Portable-Apps
-- Run /usr/local/sbin/install_XXPortable.sh
-- Run /usr/local/sbin/postInstall_AliasForXXPortable.sh (if EXE program).
+- Run `notepad.sh` command.
 - Run `source ~/.bashrc` command to update alias.  
 That all to do !
 
@@ -85,14 +89,7 @@ Command build image usage
 
 ### Command line
 
-:computer: `docker pull marchandd/term_ssh_wine_notepadplusplus > build.log`
-
-### Command line explanation
-
-First, you build the image with command line above.  
-Then, edit YOUR_DIRECTORY/build.log to find root password access.  
-In case of you doesn't want keep tracks, just leave "> build.log" from command 
-line and search root password access on screen.
+:computer: `docker pull marchandd/term_ssh_wine_notepadplusplus`
 
 Command container usage
 -----------------------
@@ -126,19 +123,14 @@ Open terminal with root/administrator account.
 - Open your Putty GUI SSH client.  
 - Choose X11 forwarding option into SSH/X11 Configuration and type IPv4:XXXXX remote desktop.  
   XXXXX is your private port you have choose previously.  
-- Choose root user and enter password you have find previously.
+- Choose root user and enter password from marchandd/term_ssh_root_wine image as 'term_ssh_root_wine' for Docker public repository access.
 
 ### SSH client session
 
-Wine have not been set at the end of install and must been configured in 
-first step:
-- :computer: `/usr/local/sbin/_installFirst_winetricksOptions.sh` to make 
-it for you.
-
-Install software and alias running each pre-set scripts in 
-/root/Downloads directory:
-- :computer: `/usr/local/sbin/install_NotepadPortable.sh`
-- :computer: `/usr/local/sbin/postInstall_AliasForNotepadPortable.sh` 
+Very easy way, you just have to run only 3 times one same command in cyclic mode to run sub programs:  
+- :computer: `notepad.sh` to set Wine emulator.  
+- :computer: `notepad.sh` to install programm.  
+- :computer: `notepad.sh` to launch programm.  
 
 Active aliases at the end of all installs made:
 - :computer: `source ~/.bashrc`
