@@ -50,6 +50,7 @@ Script behaviours:
 - Windows 7 environment set.
 - Disallow the window manager to decorate the windows.
 - Install mfc42 usage for Visual C++ 6 apps.
+- If '/data/' directory is presents into container, a symbolic link is created with "C:\users\Public\Documents" available on Windows Portable-apps.
 
 ### Few seconds for Portable-app install !
 

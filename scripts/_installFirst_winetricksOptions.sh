@@ -8,7 +8,8 @@ wineCommand=$(which wine)
 wineDirectory=~/.wine
 winetricksCommand=$(which winetricks)
 driveCDirectory=$wineDirectory/drive_c
-
+dataDirectory='/data/'
+dataSymbolicLink='/root/.wine/drive_c/users/Public/Documents/dataaccess'
 #Common script
 if [ $wineCommand ];
   then
@@ -54,6 +55,11 @@ if [ $winetricksCommand ];
         ls -all $driveCDirectory
       else
         echo "$driveCDirectory not available... Please type winecfg in console from GUI client to create $wineDirectory directories."    
+    fi
+    if [ -d $dataDirectory ];
+      then
+        echo "$dataDirectory linked to $dataSymbolicLink"
+        ln -s $dataDirectory $dataSymbolicLink
     fi
   else
     echo "Failed to find winetricks in computer. Installation aborted !"
