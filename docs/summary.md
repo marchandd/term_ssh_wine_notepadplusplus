@@ -31,6 +31,7 @@ Dockerfile explanation
 ### Work-flow: 5 minutes to have a Portable-App ready to run !
 
 - Copy files from local to VE.
+- Search last version for Portable-App to download.
 - Automatic download software from file with all URLs inside.
 - Copy files scripts to install software in container into /root/Downloads 
   directory.
