@@ -1,7 +1,7 @@
 #!/bin/bash
-#DM*20150115 winetricks succesfully based
-#On Host: KUbuntu(14.10), Docker(1.4.1)
-#On Client with Root account: Ubuntu(14.10), Wine(1.17.32)
+#DM*20151117 winetricks succesfully based
+#On Host: KUbuntu(15.10), Docker(1.9.0)
+#On Client with Root account: Ubuntu(14.10), Wine(1.17.50)
 
 #Common registry
 wineCommand=$(which wine)

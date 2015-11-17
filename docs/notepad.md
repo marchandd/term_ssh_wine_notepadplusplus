@@ -6,7 +6,7 @@ Return to [details](https://github.com/marchandd/term_ssh_wine_notepadplusplus/b
 Description
 -----------
 
-Notepad++(6.7.3) English/French by Notepad++Team is a source code editor 
+Notepad++(6.8.36) English/French by Notepad++Team is a source code editor 
 supporting several languages 
 with a lot of plug-ins.
 
@@ -43,9 +43,6 @@ Seem to be really functional useful to edit files and rename it.
 - Install and update plug-ins.
 
 ### Troubles detect ###
-- :sun_with_face: Plugging manager 1.0.8 > 1.3.5 update occurs application bug 
-but everything 
-OK after reboot programs...
 - :full_moon_with_face: Auto-completion do nothing.
 
 ### Features not tested ###

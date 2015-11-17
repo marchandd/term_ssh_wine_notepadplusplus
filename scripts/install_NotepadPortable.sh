@@ -1,8 +1,8 @@
 #!/bin/bash
-#DM*20150105 NotepadPlusPlusPortable(6.7.3) French version succesfully based
-#On Host: KUbuntu(14.10), Docker(1.4.1)
-#On Client with Root account: Ubuntu(14.10), Wine(1.17.32)
-
+#DM*20151117 NotepadPlusPlusPortable(6.8.6) French version succesfully based
+#On Host: KUbuntu(15.10), Docker(1.9.0)
+#On Client with Root account: Ubuntu(14.10), Wine(1.17.50)
+#DM*20151117 downloadFilePath complex selection files
 #Specific Windows PortableApps registry
 winProgramName="Notepad++Portable"
 pafStandardProgramName="NotepadPlusPlusPortable.paf.exe"
@@ -11,7 +11,7 @@ postInstallAliasScript="postInstall_AliasForNotepadPortable.sh"
 downloadPattern=~/Downloads/Notepad*.paf.exe
 
 #Common for all Windows PortableApps registry
-downloadFilePath=$(find $downloadPattern)
+downloadFilePath=$(find $downloadPattern -printf "%T@ %Tc %p\n" | sort -n | tail -1 | cut -d" " -f8)
 installDirectory=~/.wine/drive_c/Installers
 installFilePath=$installDirectory/$pafStandardProgramName
 portableAppsDirectory=~/.wine/drive_c/PortableApps

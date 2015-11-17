@@ -98,7 +98,7 @@ Command container usage
 
 ### Command line
 
-:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 -v LOCALPATH:/data marchandd/term_ssh_wine_notepadplusplus`
+:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 --name latest_term_ssh_wine_notepadplusplus -v LOCALPATH:/data marchandd/term_ssh_wine_notepadplusplus`
 
 Where XXX.XXX.XXX.XXX is your IP v4 address.  
 Where YYYYY is your Private port, if you doesn't know free port, try from 49200...
@@ -123,8 +123,8 @@ Open terminal with root/administrator account.
 ### GUI SSH client access
 
 - Open your Putty GUI SSH client.  
-- Choose X11 forwarding option into SSH/X11 Configuration and type IPv4:XXXXX remote desktop.  
-  XXXXX is your private port you have choose previously.  
+- Choose X11 forwarding option into SSH/X11 Configuration and type IPv4:YYYYY remote desktop.  
+  YYYYY is your private port you have choose previously.  
 - Choose root user and enter password from marchandd/term_ssh_root_wine image as 'term_ssh_root_wine' for Docker public repository access.
 
 ### SSH client session
